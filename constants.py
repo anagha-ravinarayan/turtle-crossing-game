@@ -1,0 +1,27 @@
+# Main constants
+SCREEN_WIDTH = 600
+SCREEN_HEIGHT = 600
+GAME_SLEEP = 0.1
+PLAYER_CAR_DISTANCE = 20
+
+# Player constants
+XY_LIMIT = (SCREEN_HEIGHT / 2) - 20
+STARTING_POSITION = (0, -XY_LIMIT)
+MOVE_DISTANCE = 10
+FINISH_LINE_Y = XY_LIMIT
+STARTING_ANGLE = 90
+
+# Score Board constants
+SCOREBOARD_POSITION = (-XY_LIMIT, XY_LIMIT)
+FONT = ("Courier", 18, "bold")
+LEVEL_ALIGNMENT = "left"
+GAME_OVER_POSITION = (0, 0)
+GAME_OVER_FONT = ("Courier", 24, "bold")
+GAME_OVER_ALIGNMENT = "center"
+
+# Car Manager constants
+COLORS = ["red", "orange", "yellow", "green", "blue", "purple"]
+CAR_Y_LIMIT = (SCREEN_HEIGHT / 2) - 50
+STARTING_MOVE_DISTANCE = 5
+MOVE_INCREMENT = 5
+CAR_ANGLE = 180
